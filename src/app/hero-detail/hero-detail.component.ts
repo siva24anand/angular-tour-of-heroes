@@ -13,7 +13,6 @@ export class HeroDetailComponent implements OnInit {
   constructor(private heroService:HeroService) { }
 
   ngOnInit() {
-    console.log(this.heroService.getName());
     console.log(this.heroService.getHeroes());
   }
 
